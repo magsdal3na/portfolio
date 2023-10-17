@@ -221,7 +221,7 @@ h2 {
 }
 
 .recommendation span {
-  color: #7600bc;
+  color: #696969;
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -232,7 +232,7 @@ h2 {
   width: 48px;
   height: 48px;
   border-radius: 100%;
-  background-color: #7600bc;
+  background-color: #696969;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -246,14 +246,14 @@ h2 {
 
 .popup {
   width:400px;
-  background-color: #e8bcf0;
+  background-color: #C0C0C0;
   border-radius: 3mm;
   top: 50%;
   left:50%;
   transform: translate(-50%,-50%);
   text-align: center;
   position: fixed;
-  /* padding: 30px; */
+  padding: 30px;
   visibility: hidden;
 }
 
@@ -263,8 +263,8 @@ h2 {
 
 .popup button {
   background-color: #fff;
-  border: 1px solid #7600bc;
-  color: #7600bc;
+  border: 1px solid #696969;
+  color: #696969;
   display: block;
   border-radius: 6px;
   text-align: center;
@@ -277,8 +277,8 @@ h2 {
 
 .popup button:hover {
   background-color: #fff;
-  border: 2px solid #7600bc;
-  color: #7600bc;
+  border: 2px solid #696969;
+  color: #696969;
   display: block;
   font-weight: bolder;
   text-align: center;
@@ -309,8 +309,8 @@ fieldset {
 
 button {
   background-color: #fff;
-  border: 1px solid #7600bc;
-  color: #7600bc;
+  border: 1px solid #696969;
+  color: #696969;
   display: block;
   border-radius: 6px;
   text-align: center;
@@ -321,8 +321,8 @@ button {
 }
 
 button:hover {
-  background-color: #7600bc;
-  border: 1px solid #7600bc;
+  background-color: #696969;
+  border: 1px solid #696969;
   color: #fff;
   display: block;
   border-radius: 6px;
