@@ -41,7 +41,7 @@
 
       <div>
           <h1>
-            Hi, I'm Maggie! <span class="wave">👋</span>
+            Hi, I'm Maggie! <img src="https://www.svgrepo.com/show/404301/waving-hand.svg" width=50px>
           </h1>
           <p>
             I am a junior front end developer with 3 months of experience in HTML and CSS. <br>
@@ -57,18 +57,34 @@
 
       <div class="all_skills">
         <div class="skill">
-          <img src="html_finalprojimages/html5.png"/>
+          <img src="https://www.svgrepo.com/show/508837/html5-01.svg"/>
           <h6>HTML</h6>
           <p>3 months experience</p>
         </div>  
 
         <div class="skill">
-          <img src="https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png"/>
+          <img src="https://www.svgrepo.com/show/508794/css3-01.svg"/>
           <h6>CSS</h6>
           <p>3 months experience</p>
         </div>  
 
-        <!-- Add more skills here -->
+        <div class="skill">
+            <img src="https://icon-library.com/images/ipad-icon-png/ipad-icon-png-18.jpg"/>
+            <h6>Digital Art</h6>
+            <p>3 years experience</p>
+          </div> 
+
+          <div class="skill">
+            <img src="https://cdn-icons-png.flaticon.com/512/3460/3460327.png"/>
+            <h6>Crochet</h6>
+            <p>2 years experience</p>
+          </div>
+          
+          <div class="skill">
+            <img src="https://www.svgrepo.com/show/326649/game-controller-outline.svg"/>
+            <h6>Video Game Development</h6>
+            <p>1 year experience</p>
+          </div>   
 
 
       </div>
@@ -83,23 +99,23 @@
 
         <div id="projects-container" class="projects-container">
           <div class="project-card">
-            <h3>Chatbot</h3>
+            <h3>Chasde Bank</h3>
             <ul>
-              <li>Developed a secure website integrated with chatbot for an automobile client using HTML, CSS, JavaScript and IBM Watson Assistant</li>
+              <li>Developed a fake banking website to use for scambaiting based on one of Kitboga's YouTube videos.</li>
             </ul>
           </div>
           <hr>
           <div class="project-card">
-            <h3>Sentiment Analyzer</h3>
+            <h3>Interest Calculator</h3>
             <ul>
-              <li>Developed and deployed a sentiment analyzer for the box reviews section of an eCommerce platform using IBM NLU</li>
+              <li>Developed a functional interest calculator website for a Coursera class.</li>
             </ul>
           </div>
           <hr>
           <div class="project-card">
-            <h3>Fashion Website</h3>
+            <h3>Conversion Website</h3>
             <ul>
-              <li>Created a styled multi-page website for a new player in the fashion industry and integrated it with a shopping cart, using stripe for payment gateway</li>
+              <li>Created a simple conversion table website for a Coursera class.</li>
             </ul>
           </div>
     </div>
@@ -113,24 +129,17 @@
       <div class="all_recommendations" id="all_recommendations">
         <div class="recommendation">
           <span>&#8220;</span>
-          Jane is a very quick learner and quickly grasps key concepts of Web development. 
-          She got a great attitude & she is an excellent team player. 
-          She has a curious mind and asks the right question. 
-          She takes initiative within a team and has potentials to lead the team.
+          I've had the pleasure of collaborating with Maggie on multiple coding projects. Her expertise and attention to detail are truly impressive. I can't wait to see what she comes up with next.
           <span>&#8221;</span>
         </div>
         <div class="recommendation">
           <span>&#8220;</span>
-          Working with Jane has been an awesome experience. 
-          She is highly knowledgable and always goes the extra step to make sure everything is right. 
-          For any future projects that need her expertise I would definitely want to work with her again.
+          I've followed Maggie's programming journey for some time now, and I'm continually inspired by her work. Her banking website is a reflection of her commitment to learning how to program.
           <span>&#8221;</span>
         </div>
         <div class="recommendation">
           <span>&#8220;</span>
-          I had worked along with Jane during the initial phase of our venture which needed Web development. 
-          She is a committed resource who has in depth knowledge about the domain. 
-          She will be an asset for any organisation! 
+          Maggie is a great person to work with and is a team player. She is a quick learner and is always trying to learn new things!
           <span>&#8221;</span>
         </div>
       </div>
@@ -152,14 +161,16 @@
 
     <div class="iconbutton">
       <a href="#home">
-        <!--Add the code here for the logo to appear and the icon to be actionable-->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
       </a>
     </div>
 
     <div class="popup" id="popup" class="flex_center">
       <img src="html_finalprojimages/checkmark--outline.svg"/>
-      <h3><!-- Add appropriate text here--></h3>
-      <button onclick="showPopup(false)">Ok</button>
+      <h3>  Thank you for submitting a recommendation!  </h3>
+      <button onclick="showPopup(true)">Ok</button>
     </div>
   </body>
 </html>
